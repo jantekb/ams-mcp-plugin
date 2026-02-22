@@ -1,0 +1,5 @@
+.idea
+build
+target
+/src/site/sphinx/_build
+/src/site/sphinx/_build
