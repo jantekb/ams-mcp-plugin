@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component(value="plugin.mcp")
 public class McpPlugin implements ApplicationContextAware, IStreamListener {
 
-	private final static String VERSION = "1.0.2";
+	private final static String VERSION = "1.0.0";
 
 	private static Logger logger = LoggerFactory.getLogger(McpPlugin.class);
 

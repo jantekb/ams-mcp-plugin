@@ -22,7 +22,12 @@ This produces `target/ams-mcp.jar`
 1. Build the plugin using Maven
 2. Copy `target/ams-mcp.jar` to your Ant Media Server plugins directory
 3. Restart Ant Media Server
-4. The plugin will be automatically loaded
+4. The plugin will be automatically loaded, you should see this in the logs:
+
+```
+2026-02-22 23:54:14,596 [Loader:/LiveApp] INFO  io.antmedia.plugin.McpPlugin - MCP Plugin 1.0.0 is starting in LiveApp
+```
+
 5. Configure the MCP connection to http://yourserver:5080/LiveApp/rest/mcp
 
 ## Available MCP Tools
